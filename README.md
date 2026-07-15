@@ -1,113 +1,113 @@
-# Warehouse Fulfillment Analytics
+# 📦 Warehouse Fulfillment Analytics
 
-## Overview
+## 📖 Overview
 
-This project simulates a large-scale warehouse fulfillment operation and analyzes operational quality using Python, SQL, Google BigQuery, and Tableau.
+This project simulates a large-scale warehouse fulfillment operation and analyzes operational quality using **Python, SQL, Google BigQuery, and Tableau**.
 
 The dataset contains more than **1 million simulated warehouse orders** covering an entire year of operations.
 
 ---
 
-## Business Problem
+## 🎯 Business Problem
 
 Warehouse operations generate millions of orders each year. Quality issues such as damaged products, incorrect picks, and missed inspections increase costs and reduce customer satisfaction.
 
 This project identifies operational risks by analyzing:
 
-- Defect rates
-- Pick station performance
-- Pack station performance
-- Shift performance
-- Monthly trends
+- 📉 Defect rates
+- 📍 Pick station performance
+- 📦 Pack station performance
+- 🌙 Shift performance
+- 📅 Monthly trends
 
 ---
 
-## Tools
+## 🛠️ Tools
 
-- Python
-- Pandas
-- Google BigQuery
-- SQL
-- Tableau
-- GitHub
+- 🐍 Python
+- 🐼 Pandas
+- ☁️ Google BigQuery
+- 🗄️ SQL
+- 📊 Tableau
+- 🐙 GitHub
 
 ---
 
-## Dataset
+## 📂 Dataset
 
 The Python script generates:
 
-- 1M+ warehouse orders
-- Pick stations
-- Pack stations
-- Product categories
-- Shifts
-- Processing timestamps
-- Robot inspections
-- Defect classifications
+- 📦 1M+ warehouse orders
+- 📍 Pick stations
+- 📦 Pack stations
+- 🏷️ Product categories
+- 🌙 Shifts
+- ⏱️ Processing timestamps
+- 🤖 Robot inspections
+- ⚠️ Defect classifications
 
 ---
 
-## Project Workflow
+## 🔄 Project Workflow
 
+```text
+🐍 Python
+      ↓
+📦 Generate Dataset
+      ↓
+📄 CSV
+      ↓
+☁️ Google BigQuery
+      ↓
+🗄️ SQL Analytics
+      ↓
+📋 Views
+      ↓
+📊 Tableau Dashboard
 ```
-Python
-      ↓
-Generate Dataset
-      ↓
-CSV
-      ↓
-Google BigQuery
-      ↓
-SQL Analytics
-      ↓
-Views
-      ↓
-Tableau Dashboard
-```
 
 ---
 
-## Key KPIs
+## 📈 Key KPIs
 
-- Quality Score
-- Total Orders
-- Total Defects
-- Defect Rate Percent
-- Total Pick Stations
-- Tota Pack Stations
+- ⭐ Quality Score
+- 📦 Total Orders
+- ⚠️ Total Defects
+- 📉 Defect Rate (%)
+- 📍 Total Pick Stations
+- 📦 Total Pack Stations
 
 ---
 
-## SQL Analysis
+## 🗄️ SQL Analysis
 
 Example analyses include:
 
-- Overall defect rate
-- Monthly trends
-- Worst-performing pick stations
-- Worst-performing pack stations
-- Shift comparison
-- Executive summary
+- 📊 Overall defect rate
+- 📅 Monthly trends
+- 🔴 Worst-performing pick stations
+- 🔴 Worst-performing pack stations
+- 🌙 Shift comparison
+- 📄 Executive summary
 
 ---
 
-## Dashboard
+## 📊 Dashboard
 
 The Tableau dashboard includes:
 
-- Executive KPI cards
-- Monthly defect trend
-- Shift heatmap
-- Shift performance
-- Pick station performance
-- Pack station performance
-  
+- 📌 Executive KPI cards
+- 📈 Monthly defect trend
+- 🔥 Shift heatmap
+- 🌙 Shift performance
+- 📍 Pick station performance
+- 📦 Pack station performance
+
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
-```
+```text
 data/
 images/
 python/
@@ -119,14 +119,14 @@ requirements.txt
 
 ---
 
-## Skills Demonstrated
+## 🚀 Skills Demonstrated
 
-- Python
-- Data Generation
-- SQL
-- BigQuery
-- Tableau
-- Data Visualization
-- Business Intelligence
-- KPI Development
-- Root Cause Analysis
+- 🐍 Python
+- ⚙️ Data Generation
+- 🗄️ SQL
+- ☁️ BigQuery
+- 📊 Tableau
+- 📈 Data Visualization
+- 💼 Business Intelligence
+- 📌 KPI Development
+- 🔍 Root Cause Analysis
