@@ -71,14 +71,12 @@ Tableau Dashboard
 
 ## Key KPIs
 
+- Quality Score
 - Total Orders
-- Overall Defect Rate
-- Monthly Defect Rate
-- Shift Performance
-- Pick Station Quality
-- Pack Station Quality
-- High-Risk Workflow Detection
-- Station Productivity
+- Total Defects
+- Defect Rate Percent
+- Total Pick Stations
+- Tota Pack Stations
 
 ---
 
@@ -92,7 +90,6 @@ Example analyses include:
 - Worst-performing pack stations
 - Shift comparison
 - Executive summary
-- High-risk workflow analysis
 
 ---
 
