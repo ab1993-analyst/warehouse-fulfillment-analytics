@@ -17,9 +17,8 @@ This project identifies operational risks by analyzing:
 - Defect rates
 - Pick station performance
 - Pack station performance
-- Shift quality
+- Shift performance
 - Monthly trends
-- High-risk workflows
 
 ---
 
@@ -100,21 +99,22 @@ The Tableau dashboard includes:
 - Executive KPI cards
 - Monthly defect trend
 - Shift heatmap
+- Shift performance
 - Pick station performance
 - Pack station performance
-- High-risk workflows
-
+  
 ---
 
 ## Repository Structure
 
 ```
 data/
+images/
 python/
 sql/
 tableau/
-images/
 README.md
+requirements.txt
 ```
 
 ---
